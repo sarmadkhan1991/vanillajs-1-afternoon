@@ -8,6 +8,6 @@ console.log(colorInput);
 
 function setCard(){
     var card = document.getElementById(idInput.value);
-    //card.style.color = colorInput.value;
+    card.style.color = colorInput.value;
     console.log(card);
 }
